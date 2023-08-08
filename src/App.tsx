@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-    <Container title='tti' description='desc'>
+    <Container title='Meus Jogos' description='desc'>
       <p>ola</p>
     </Container>
     </>

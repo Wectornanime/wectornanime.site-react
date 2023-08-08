@@ -1,22 +1,23 @@
 section {
     width: 90%;
-    background-color: blue;
+    background-color: var(--container-decoration-color);
     border-radius: 10px;
     padding-top: 5px;
 }
 
 .content {
     width: 100%;
-    padding: 25px 20px;
-    background-color: red;
+    padding: 20px 15px;
+    background-color: var(--container-color);
     border-radius: 8px;
 }
 
 h2 {
-    color: white;
+    color: var(--title-color);
     margin-bottom: 5px;
 }
 
 p {
+    color: var(--text-primary-color);
     margin-bottom: 15px;
 }
