@@ -1,14 +1,16 @@
 import './App.css'
 
-import Container from './components/Container'
+import ProjectCard from './components/ProjectCard'
 
 function App() {
 
   return (
     <>
-    <Container title='Meus Jogos' description='desc'>
-      <p>ola</p>
-    </Container>
+    <ProjectCard 
+    title="React Portfolio"
+    description="A portfolio website built with React."
+    linkToSite="#"
+    />
     </>
   )
 }
