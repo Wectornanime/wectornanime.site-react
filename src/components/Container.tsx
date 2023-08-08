@@ -9,7 +9,7 @@ interface ContainerProps {
 export default function Container(props:ContainerProps) {
     return (
         <section>
-            <div className="content">
+            <div className="container_content">
                 <h2>{props.title}</h2>
                 <p>{props.description}</p>
                 <ul>{props.children}</ul>

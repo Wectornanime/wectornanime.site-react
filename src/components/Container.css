@@ -5,19 +5,20 @@ section {
     padding-top: 5px;
 }
 
-.content {
+.container_content {
     width: 100%;
     padding: 20px 15px;
     background-color: var(--container-color);
     border-radius: 8px;
 }
 
-h2 {
+.container_content > h2 {
     color: var(--title-color);
+    text-transform: capitalize;
     margin-bottom: 5px;
 }
 
-p {
+.container_content > p {
     color: var(--text-primary-color);
     margin-bottom: 15px;
 }
