@@ -3,7 +3,7 @@ import './Container.css'
 interface ContainerProps {
     title:string,
     description:string,
-    children:JSX.Element
+    children:JSX.Element | JSX.Element[]
 }
 
 export default function Container(props:ContainerProps) {
