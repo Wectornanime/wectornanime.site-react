@@ -1,0 +1,10 @@
+main {
+    max-width: 580px;
+    width: 90%;
+    margin: 32px auto;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
