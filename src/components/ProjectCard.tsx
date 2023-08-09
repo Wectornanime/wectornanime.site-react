@@ -17,7 +17,7 @@ export default function ProjectCard(props:ProjectCardProps) {
     }
 
     return (
-        <div className="project-card">
+        <li className="project-card">
             <a href={props.linkToSite} target="_blank" rel="noreferrer">
                 <div className="image-wrapper">
                     <img src={backgroundImage} alt="Imagem do projeto" />
@@ -27,6 +27,6 @@ export default function ProjectCard(props:ProjectCardProps) {
                     <p>{props.description}</p>
                 </div>
             </a>
-        </div>
+        </li>
     )
 }

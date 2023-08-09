@@ -14,13 +14,13 @@ export default function CertificateCard(props:CertificateCardProps) {
     }
 
     return (
-        <div className="certificate-card">
+        <li className="certificate-card">
             <div className="image-wrapper">
                 <img src={certificateImage} alt="Imagem do Certificado" />
             </div>
             <div className="certificate-card_content">
                 <p>{props.description}</p>
             </div>
-        </div>
+        </li>
     )
 }
