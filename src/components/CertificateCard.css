@@ -1,0 +1,53 @@
+.certificate-card > * {
+    transition: 0.7s ease-in-out;
+    border-radius: 10px;
+}
+
+.certificate-card {
+    width: 320px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: default;
+}
+
+.certificate-card .image-wrapper {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.certificate-card > .image-wrapper > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.certificate-card_content {
+    width: 100%;
+    position: absolute;
+    bottom: -25%;
+    padding: 0 15px 10px;
+
+    color: var(--title-color);
+
+    background: linear-gradient(transparent, #000000be);
+}
+
+.certificate-card_content p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.certificate-card:hover > .image-wrapper {
+    scale: 1.1;
+}
+
+.certificate-card:hover > .certificate-card_content {
+    bottom: 0;
+}
