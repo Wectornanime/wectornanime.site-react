@@ -1,0 +1,37 @@
+.tec-badge > * {
+    transition: 0.4s ease-in-out;
+    cursor: default;
+}
+
+.tec-badge {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tec-badge > i {
+    font-size: 40px;
+    color: var(--title-color);
+    padding: 10px;
+    border-radius: 50px;
+    background-color: var(--container-decoration-color);
+}
+
+.tec-badge:hover > i {
+    font-size: 48px;
+    padding: 6px;
+}
+
+.tec-badge > p {
+    transform: translateY(-20px);
+    visibility: hidden;
+    opacity: 0;
+    color: var(--text-primary-color);
+}
+
+.tec-badge:hover > p {
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+}
