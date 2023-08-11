@@ -63,8 +63,8 @@ function App() {
       </Container>
 
       <Container
-      title="Meu projetos"
-      description="Projetos que desenvolvi."
+      title="Projetos"
+      description="Projetos que desenvolvi ao longo do tempo."
       containerClass="projects"
       >
         <ProjectCard 
@@ -89,17 +89,22 @@ function App() {
 
       <Container
         containerClass="certificates"
-        title="Meus Certificados"
+        title="Certificados"
         description="Certificados que conquistei durante o caminho."
       >
         <CertificateCard
-          description="Certificado de Angular"
-          imageURL="https://hermes.digitalinnovation.one/certificates/cover/E9CBE57B.jpg"
+          description="Certificado do Mult-Stack 2"
+          imageURL="images/certificates/multstack-2.png"
         />
 
         <CertificateCard
-          description="Certificado de Angular"
-          imageURL="https://hermes.digitalinnovation.one/certificates/cover/E9CBE57B.jpg"
+          description="Certificado do Mult-Stack 4"
+          imageURL="images/certificates/multstack-4.png"
+        />
+
+        <CertificateCard
+          description="Certificado de Bootcamp de Azure"
+          imageURL="images/certificates/azure.png"
         />
 
         <CertificateCard

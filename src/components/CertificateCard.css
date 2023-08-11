@@ -29,14 +29,16 @@
     width: 100%;
     position: absolute;
     bottom: -25%;
-    padding: 0 15px 10px;
+    padding: 5px 15px 5px;
 
     color: var(--title-color);
 
-    background: linear-gradient(transparent, #000000be);
+    background: linear-gradient(transparent, #000);
+    border-radius: unset;
 }
 
 .certificate-card_content p {
+    font-size: 12px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
