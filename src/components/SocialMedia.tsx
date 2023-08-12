@@ -7,7 +7,7 @@ interface SocialMediaProps {
 
 export default function SocialMedia(props:SocialMediaProps) {
     return (
-        <li>
+        <li className="social-media">
             <a href={props.url} target="_blank" rel="noreferrer">
                 <ion-icon name={props.icon}></ion-icon>
             </a>

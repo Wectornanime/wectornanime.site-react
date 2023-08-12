@@ -19,3 +19,7 @@
     --container-color: #2A2634;
     --container-decoration-color: purple;
 }
+
+html {
+    background-color: aqua;
+}
