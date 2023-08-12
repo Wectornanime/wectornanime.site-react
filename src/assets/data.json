@@ -2,8 +2,16 @@
     "name": "Wectornanime",
     "subName": "Fullstack studant",
     "imageURL": "https://www.github.com/Wectornanime.png",
-    "githubURL": "https://www.github.com/wectornanime",
-    "linkedinURL": "https://www.linkedin.com/in/wectornanime-nascimento",
+    "links": [
+        {
+            "label": "Github",
+            "url": "https://www.github.com/wectornanime"
+        },
+        {
+            "label": "Linkedin",
+            "url": "https://www.linkedin.com/in/wectornanime-nascimento"
+        }
+    ],
     "hability": [
         {
             "name": "HTML5",

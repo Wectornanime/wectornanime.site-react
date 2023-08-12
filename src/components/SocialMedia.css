@@ -1,22 +1,19 @@
 .social-media {
-    width: 50px;
-    height: 50px;
-    padding: 10px;
-    background-color: var(--container-decoration-color);
+    width: 80px;
+    height: 30px;
+    padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid var(--title-color);
     border-radius: 10px;
 }
 
 .social-media > a {
-    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--title-color);
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.social-media > a > ion-icon {
-    font-size: 100%;
-    color: var(--container-color);
 }

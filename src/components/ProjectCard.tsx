@@ -23,25 +23,24 @@ export default function ProjectCard(props:ProjectCardProps) {
 
     return (
         <li className="project-card">
-            <div className="image-wrapper">
-                <img src={backgroundImage} alt="Imagem do projeto" />
+            <div className="project-card_image">
+                <div className="image-wrapper">
+                    <img src={backgroundImage} alt="Imagem do projeto" />
+                </div>
             </div>
             <div className="project-card_content">
                 <h2>{props.title}</h2>
-                <div className="project-card_content_details">
-                    <p>{props.description}</p>
-                    <ul>
 
-                        {
-                            props.links.map(item => {
-                                return (
-                                    <li><a href={item.url} target="_blank" rel="noreferrer"><button>{item.label}</button></a></li>
-                                )
-                            })
-                        }
-
-                    </ul>
-                </div>
+                <p>{props.description}</p>
+                <ul>
+                    {
+                        props.links.map(item => {
+                            return (
+                                <li><a href={item.url} target="_blank" rel="noreferrer"><button>{item.label}</button></a></li>
+                            )
+                        })
+                    }
+                </ul>
             </div>
         </li>
     )

@@ -18,10 +18,12 @@
 
     --container-color: #2A2634;
     --container-decoration-color: purple;
+    
+    --background-color: #000;
 }
 
 html {
-    background-color: aqua;
+    background-color: var(--background-color);
 }
 
 Header {

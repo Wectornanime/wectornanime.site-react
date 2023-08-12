@@ -14,15 +14,17 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     subName={data.subName}
     imageURL={data.imageURL}
     >
-      <SocialMedia
-      icon="logo-linkedin"
-      url={data.linkedinURL}
-      />
 
-      <SocialMedia
-      icon="logo-github"
-      url={data.githubURL}
-      />
+      {
+        data.links.map(item => {
+          return (
+            <SocialMedia
+            label={item.label}
+            url={item.url}
+            />
+          )
+        })
+      }
 
     </Header>
     <App />
