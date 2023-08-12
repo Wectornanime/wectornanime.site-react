@@ -4,7 +4,7 @@ interface ContainerProps {
     title:string,
     description:string,
     containerClass:string
-    children:JSX.Element | JSX.Element[]
+    children?:JSX.Element | JSX.Element[]
 }
 
 export default function Container(props:ContainerProps) {

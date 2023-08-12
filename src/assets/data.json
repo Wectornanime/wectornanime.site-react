@@ -1,0 +1,83 @@
+{
+    "name": "Wectornanime",
+    "subName": "Fullstack studant",
+    "imageURL": "https://www.github.com/Wectornanime.png",
+    "githubURL": "https://www.github.com/wectornanime",
+    "linkedinURL": "https://www.linkedin.com/in/wectornanime-nascimento",
+    "hability": [
+        {
+            "name": "HTML5",
+            "deviconClass": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS3",
+          "deviconClass": "devicon-css3-plain"
+        },
+        {
+          "name": "JavaScript",
+          "deviconClass": "devicon-javascript-plain"
+        },
+        {
+          "name": "TypeScript",
+          "deviconClass": "devicon-typescript-plain"
+        },
+        {
+          "name": "Angular",
+          "deviconClass": "devicon-angularjs-plain"
+        },
+        {
+          "name": "React",
+          "deviconClass": "devicon-react-plain"
+        },
+        {
+          "name": "Python",
+          "deviconClass": "devicon-python-plain"
+        },
+        {
+          "name": "Flask",
+          "deviconClass": "devicon-flask-plain"
+        },
+        {
+          "name": "MySQL",
+          "deviconClass": "devicon-mysql-plain"
+        }
+    ],
+    "projects": [
+        {
+            "title": "CadastroIdoso",
+            "description": "O projeto é uma aplicação web completa com front, back e banco de dados, para cadastro de idosos e remédios que podem ser associados ao idoso.",
+            "linkToSite": "https://github.com/Wectornanime/cadastroIdoso",
+            "imageURL": ""
+        },
+        {
+            "title": "BuzzFeed-Clone",
+            "description": "Desafio de projeto proposto pela DIO (Digital Innovation One) no bootcamp 'Potencial Tech Angular Developer - powered by iFood'. No projeto foi posposto, desenvolver um clone do BuzzFeed utilizando Angular. Nele foi montado um pequeno teste simples, com o intuito de revelar se você é um 'vilão', ou um 'herói'.",
+            "linkToSite": "https://github.com/Wectornanime/DIO-desafio_de_projeto-Angular-BuzzFeed-Clone",
+            "imageURL": ""
+          },
+          {
+            "title": "Blog em Angular",
+            "description": "Desafio de projeto proposto pela DIO (Digital Innovation One) no bootcamp 'Potencial Tech Angular Developer - powered by iFood'.",
+            "linkToSite": "https://github.com/Wectornanime/DIO-desafio_de_projeto-Angular-Blog",
+            "imageURL": ""
+        }
+    ],
+    "certificates": [
+        {
+            "description": "Certificado do Mult-Stack 2",
+            "imageURL": "images/certificates/multstack-2.png"
+        },
+        {
+            "description": "Certificado do Mult-Stack 4",
+            "imageURL": "images/certificates/multstack-4.png"
+        },
+        {
+            "description": "Certificado de Bootcamp de Azure",
+            "imageURL": "images/certificates/azure.png"
+        },
+        {
+            "description": "Certificado de Angular",
+            "imageURL": "https://hermes.digitalinnovation.one/certificates/cover/E9CBE57B.jpg"
+        }
+    ]
+}

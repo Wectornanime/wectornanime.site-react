@@ -7,7 +7,7 @@ interface CertificateCardProps {
 
 export default function CertificateCard(props:CertificateCardProps) {
     let certificateImage:string
-    if (typeof(props.imageURL) === "undefined") {
+    if (typeof(props.imageURL) === "undefined" || props.imageURL === "") {
         certificateImage = 'images/no-image.png'
     } else {
         certificateImage= props.imageURL as string;

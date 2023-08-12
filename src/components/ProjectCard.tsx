@@ -10,7 +10,7 @@ interface ProjectCardProps{
 export default function ProjectCard(props:ProjectCardProps) {
     let backgroundImage:string
 
-    if (typeof(props.imageURL) === "undefined") {
+    if (typeof(props.imageURL) === "undefined" || props.imageURL === "") {
         backgroundImage = "./images/no-image.png"
     } else {
         backgroundImage = props.imageURL

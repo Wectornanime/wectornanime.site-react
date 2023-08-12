@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
+import data from './assets/data.json'
 
 import Header from './components/Header.tsx'
 import SocialMedia from './components/SocialMedia.tsx'
@@ -9,18 +10,18 @@ import SocialMedia from './components/SocialMedia.tsx'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Header
-    name="Wectornanime"
-    subName="Fullstack studant"
-    imageURL="images/no-image.png"
+    name={data.name}
+    subName={data.subName}
+    imageURL={data.imageURL}
     >
       <SocialMedia
       icon="logo-linkedin"
-      url="https://linkedin.com/in/wectornanime-nascimento"
+      url={data.linkedinURL}
       />
 
       <SocialMedia
       icon="logo-github"
-      url="https://github.com/wectornanime"
+      url={data.githubURL}
       />
 
     </Header>
