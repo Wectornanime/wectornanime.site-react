@@ -1,17 +1,12 @@
-.project-card > a {
-    text-decoration: none;
-}
-
 .project-card {
     width: 260px;
     height: 260px;
     border-radius: 20px;
-    cursor: pointer;
+    cursor: default;
     position: relative;
     overflow: hidden;
     transition: 0.3s ease-in-out
 }
-
 
 .project-card .image-wrapper {
     width: 100%;
@@ -49,26 +44,45 @@
     transition: 0.3s ease-in-out;
 }
 
-.project-card_content p {
+.project-card_content_details {
     width: 100%;
+    position: absolute;
+    bottom: -100%;
+    padding: 5px 10px;
+    background: linear-gradient(to top, #000, transparent);
+    transition: 0.3s ease-in-out;
+}
+
+.project-card_content_details > p {
     color: var(--title-color);
     text-align: justify;
     text-indent: 5px;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 11px;
-    position: absolute;
-    bottom: -100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 2px;
-    background: linear-gradient(transparent, #000);
-    transition: 0.3s ease-in-out;
 
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 5;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+}
+
+.project-card_content_details > ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.project-card_content_details button {
+    padding: 3px;
+    width: 60px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .project-card:hover {
@@ -83,6 +97,6 @@
     top: 15%;
 }
 
-.project-card:hover .project-card_content p {
+.project-card:hover .project-card_content_details {
     bottom: 0;
 }

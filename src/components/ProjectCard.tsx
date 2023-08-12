@@ -11,22 +11,26 @@ export default function ProjectCard(props:ProjectCardProps) {
     let backgroundImage:string
 
     if (typeof(props.imageURL) === "undefined") {
-        backgroundImage = "./images/default_project_background.jpg"
+        backgroundImage = "./images/no-image.png"
     } else {
         backgroundImage = props.imageURL
     }
 
     return (
         <li className="project-card">
-            <a href={props.linkToSite} target="_blank" rel="noreferrer">
-                <div className="image-wrapper">
-                    <img src={backgroundImage} alt="Imagem do projeto" />
-                </div>
-                <div className="project-card_content">
-                    <h2>{props.title}</h2>
+            <div className="image-wrapper">
+                <img src={backgroundImage} alt="Imagem do projeto" />
+            </div>
+            <div className="project-card_content">
+                <h2>{props.title}</h2>
+                <div className="project-card_content_details">
                     <p>{props.description}</p>
+                    <ul>
+                        <li><a href="" target="_blank" rel="noreferrer"><button>Github</button></a></li>
+                        <li><a href="" target="_blank" rel="noreferrer"><button>Site</button></a></li>
+                    </ul>
                 </div>
-            </a>
+            </div>
         </li>
     )
 }
