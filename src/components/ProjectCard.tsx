@@ -2,9 +2,14 @@ import './ProjectCard.css'
 
 interface ProjectCardProps{
     title:string
-    description: string
-    imageURL?: string | undefined
-    linkToSite: string
+    description:string
+    imageURL?:string | undefined
+    links:itemLink[]
+}
+
+interface itemLink {
+    label:string
+    url:string
 }
 
 export default function ProjectCard(props:ProjectCardProps) {
@@ -26,8 +31,15 @@ export default function ProjectCard(props:ProjectCardProps) {
                 <div className="project-card_content_details">
                     <p>{props.description}</p>
                     <ul>
-                        <li><a href="" target="_blank" rel="noreferrer"><button>Github</button></a></li>
-                        <li><a href="" target="_blank" rel="noreferrer"><button>Site</button></a></li>
+
+                        {
+                            props.links.map(item => {
+                                return (
+                                    <li><a href={item.url} target="_blank" rel="noreferrer"><button>{item.label}</button></a></li>
+                                )
+                            })
+                        }
+
                     </ul>
                 </div>
             </div>

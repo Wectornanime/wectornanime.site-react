@@ -44,7 +44,7 @@ function App() {
               title={item.title}
               description={item.description}
               imageURL={item.imageURL}
-              linkToSite={item.linkToSite}
+              links={item.links}
               />
             )
           })
