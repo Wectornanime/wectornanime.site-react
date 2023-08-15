@@ -1,4 +1,5 @@
 import './Header.css'
+import default_image from '../assets/images/no-image.png'
 
 interface HeaderProps {
     imageURL?: string
@@ -11,7 +12,7 @@ export default function Header(props:HeaderProps) {
     let userImage:string
 
     if (typeof(props.imageURL) === 'undefined' || props.imageURL === '' ) {
-        userImage = 'images/no-image.png'
+        userImage = default_image
     } else {
         userImage= props.imageURL as string;
     }

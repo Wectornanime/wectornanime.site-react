@@ -18,36 +18,36 @@
             "deviconClass": "devicon-html5-plain"
         },
         {
-          "name": "CSS3",
-          "deviconClass": "devicon-css3-plain"
+            "name": "CSS3",
+            "deviconClass": "devicon-css3-plain"
         },
         {
-          "name": "JavaScript",
-          "deviconClass": "devicon-javascript-plain"
+            "name": "JavaScript",
+            "deviconClass": "devicon-javascript-plain"
         },
         {
-          "name": "TypeScript",
-          "deviconClass": "devicon-typescript-plain"
+            "name": "TypeScript",
+            "deviconClass": "devicon-typescript-plain"
         },
         {
-          "name": "Angular",
-          "deviconClass": "devicon-angularjs-plain"
+            "name": "Angular",
+            "deviconClass": "devicon-angularjs-plain"
         },
         {
-          "name": "React",
-          "deviconClass": "devicon-react-plain"
+            "name": "React",
+            "deviconClass": "devicon-react-plain"
         },
         {
-          "name": "Python",
-          "deviconClass": "devicon-python-plain"
+            "name": "Python",
+            "deviconClass": "devicon-python-plain"
         },
         {
-          "name": "Flask",
-          "deviconClass": "devicon-flask-plain"
+            "name": "Flask",
+            "deviconClass": "devicon-flask-plain"
         },
         {
-          "name": "MySQL",
-          "deviconClass": "devicon-mysql-plain"
+            "name": "MySQL",
+            "deviconClass": "devicon-mysql-plain"
         }
     ],
     "projects": [

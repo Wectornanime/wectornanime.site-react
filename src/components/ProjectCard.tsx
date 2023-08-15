@@ -1,4 +1,5 @@
 import './ProjectCard.css'
+import default_image from '../assets/images/no-image.png'
 
 interface ProjectCardProps{
     title:string
@@ -16,7 +17,7 @@ export default function ProjectCard(props:ProjectCardProps) {
     let backgroundImage:string
 
     if (typeof(props.imageURL) === "undefined" || props.imageURL === "") {
-        backgroundImage = "./images/no-image.png"
+        backgroundImage = default_image
     } else {
         backgroundImage = props.imageURL
     }

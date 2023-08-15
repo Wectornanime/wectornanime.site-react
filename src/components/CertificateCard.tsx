@@ -1,4 +1,5 @@
 import './CertificateCard.css'
+import default_image from '../assets/images/no-image.png'
 
 interface CertificateCardProps {
     description: string
@@ -8,7 +9,7 @@ interface CertificateCardProps {
 export default function CertificateCard(props:CertificateCardProps) {
     let certificateImage:string
     if (typeof(props.imageURL) === "undefined" || props.imageURL === "") {
-        certificateImage = 'images/no-image.png'
+        certificateImage = default_image
     } else {
         certificateImage= props.imageURL as string;
     }
