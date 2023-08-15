@@ -13,6 +13,12 @@ function App() {
     <main>
 
       <Container
+      title="Sobre mim"
+      description={data.aboutMe}
+      containerClass="about-me"
+      />
+
+      <Container
         title="Habilidades"
         description="Tecnologias que tenho alguma habilidade."
         containerClass="hability"

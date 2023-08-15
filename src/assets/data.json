@@ -2,6 +2,7 @@
     "name": "Wectornanime",
     "subName": "Fullstack studant",
     "imageURL": "https://www.github.com/Wectornanime.png",
+    "aboutMe": "Hi, meu nome é Wectornanime, tenho 20 anos de idade, atualmente estudo Análise e Desenvolvimento de Sistemas na faculdade Senac. Tenho interesse na área fulllstack, mas com foco no JavaScript e TypeScript tanto para o frontend como para o backend. Embora eu estude outras linguagens de programação, como Python e PHP. Os frameworks que mais ultilizo são o React e o Angular para frontend e para o backend costumo fazer a ultilização do Flask.",
     "links": [
         {
             "label": "Github",
@@ -52,13 +53,17 @@
     ],
     "projects": [
         {
-            "title": "CadastroIdoso",
-            "description": "O projeto é uma aplicação web completa com front, back e banco de dados, para cadastro de idosos e remédios que podem ser associados ao idoso.",
-            "imageURL": "./images/projects/cadastro-idoso.png",
+            "title": "Blog em Angular",
+            "description": "Desafio de projeto proposto pela DIO (Digital Innovation One) no bootcamp 'Potencial Tech Angular Developer - powered by iFood'.",
+            "imageURL": "./images/projects/blog.png",
             "links": [
                 {
                     "label": "Github",
-                    "url":"https://github.com/Wectornanime/cadastroIdoso"
+                    "url":"https://github.com/Wectornanime/DIO-desafio_de_projeto-Angular-Blog"
+                },
+                {
+                    "label": "Site",
+                    "url": "https://wectornanime-angula-blog.netlify.app/"
                 }
             ]
         },
@@ -76,19 +81,15 @@
                     "url": "https://wectornanime-buzzfeed-clone.netlify.app/"
                 }
             ]
-          },
-          {
-            "title": "Blog em Angular",
-            "description": "Desafio de projeto proposto pela DIO (Digital Innovation One) no bootcamp 'Potencial Tech Angular Developer - powered by iFood'.",
-            "imageURL": "./images/projects/blog.png",
+        },
+        {
+            "title": "CadastroIdoso",
+            "description": "O projeto é uma aplicação web completa com front, back e banco de dados, para cadastro de idosos e remédios que podem ser associados ao idoso.",
+            "imageURL": "./images/projects/cadastro-idoso.png",
             "links": [
                 {
                     "label": "Github",
-                    "url":"https://github.com/Wectornanime/DIO-desafio_de_projeto-Angular-Blog"
-                },
-                {
-                    "label": "Site",
-                    "url": "https://wectornanime-angula-blog.netlify.app/"
+                    "url":"https://github.com/Wectornanime/cadastroIdoso"
                 }
             ]
         }
