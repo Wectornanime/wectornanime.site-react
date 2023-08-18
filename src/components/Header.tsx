@@ -1,4 +1,6 @@
+import { useState } from 'react'
 import './Header.css'
+import default_image from '../assets/images/no-image.png'
 
 interface HeaderProps {
     imageURL?: string
@@ -8,18 +10,17 @@ interface HeaderProps {
 }
 
 export default function Header(props:HeaderProps) {
-    let userImage:string
+    const [error, setErro] = useState(false)
 
-    if (typeof(props.imageURL) === 'undefined' || props.imageURL === '' ) {
-        userImage = 'images/no-image.png'
-    } else {
-        userImage= props.imageURL as string;
-    }
-
+    const handleImageError = () => {
+        setErro(true)
+    }  
     return (
         <header>
             <div className="image-wrapper">
-                <img src={props.imageURL} alt="" />
+                {
+                    error ? (<img src={default_image} alt="Foto do usuário" />) : (<img src={props.imageURL} alt="Foto do usuário" onError={handleImageError} />)
+                }
             </div>
             <h1>{props.name}</h1>
             <p>{props.subName}</p>

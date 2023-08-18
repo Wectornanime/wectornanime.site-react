@@ -1,5 +1,5 @@
 .certificate-card > * {
-    transition: 0.7s ease-in-out;
+    transition: 0.3s ease-in-out;
     border-radius: 10px;
 }
 
@@ -28,7 +28,7 @@
 .certificate-card_content {
     width: 100%;
     position: absolute;
-    bottom: -25%;
+    bottom: -15%;
     padding: 5px 15px;
 
     color: var(--title-color);

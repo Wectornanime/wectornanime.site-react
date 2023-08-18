@@ -1,4 +1,6 @@
+import { useState } from 'react'
 import './ProjectCard.css'
+import default_image from '../assets/images/no-image.png'
 
 interface ProjectCardProps{
     title:string
@@ -13,35 +15,34 @@ interface itemLink {
 }
 
 export default function ProjectCard(props:ProjectCardProps) {
-    let backgroundImage:string
+    const [error, setErro] = useState(false)
 
-    if (typeof(props.imageURL) === "undefined" || props.imageURL === "") {
-        backgroundImage = "./images/no-image.png"
-    } else {
-        backgroundImage = props.imageURL
+    const handleImageError = () => {
+        setErro(true)
     }
 
     return (
         <li className="project-card">
-            <div className="image-wrapper">
-                <img src={backgroundImage} alt="Imagem do projeto" />
+            <div className="project-card_image">
+                <div className="image-wrapper">
+                    {
+                        error ? (<img src={default_image} alt="Imagem do projeto" />) : (<img src={props.imageURL} alt="Imagem do projeto" onError={handleImageError} />)
+                    }
+                </div>
             </div>
             <div className="project-card_content">
                 <h2>{props.title}</h2>
-                <div className="project-card_content_details">
-                    <p>{props.description}</p>
-                    <ul>
 
-                        {
-                            props.links.map(item => {
-                                return (
-                                    <li><a href={item.url} target="_blank" rel="noreferrer"><button>{item.label}</button></a></li>
-                                )
-                            })
-                        }
-
-                    </ul>
-                </div>
+                <p>{props.description}</p>
+                <ul>
+                    {
+                        props.links.map(item => {
+                            return (
+                                <li><a href={item.url} target="_blank" rel="noreferrer"><button>{item.label}</button></a></li>
+                            )
+                        })
+                    }
+                </ul>
             </div>
         </li>
     )
