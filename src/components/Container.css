@@ -12,6 +12,7 @@ section {
 }
 
 .container_content > h2 {
+    margin-left: 20px;
     color: var(--title-color);
     text-transform: capitalize;
     margin-bottom: 5px;
