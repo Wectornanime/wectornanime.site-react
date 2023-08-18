@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './Header.css'
-import default_image from '../assets/images/no-image.png'
 
 interface HeaderProps {
     imageURL?: string
@@ -19,7 +18,7 @@ export default function Header(props:HeaderProps) {
         <header>
             <div className="image-wrapper">
                 {
-                    error ? (<img src={default_image} alt="Foto do usuário" />) : (<img src={props.imageURL} alt="Foto do usuário" onError={handleImageError} />)
+                    error ? (<img src="../assets/images/no-image.png" alt="Foto do usuário" />) : (<img src={props.imageURL} alt="Foto do usuário" onError={handleImageError} />)
                 }
             </div>
             <h1>{props.name}</h1>
