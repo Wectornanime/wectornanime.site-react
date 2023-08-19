@@ -1,5 +1,5 @@
 # Portfolio em React.
-O projeto é um portfolio feito em React com, usando Vite.
+O projeto é um portfolio feito em React com TypeScript e Vite.
 O layout foi baseado em um projeto ministrado por [Mayk Brito](https://github.com/maykbrito/) feito pela [Rocketseat](https://www.rocketseat.com.br/) durante a NLW 9 eSports na trilha Explorer, [link do projeto](https://github.com/maykbrito/nlw-esports-explorer).
 
 ## Tecnologias ultilizadas:
