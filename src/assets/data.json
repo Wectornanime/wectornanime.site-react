@@ -97,19 +97,23 @@
     "certificates": [
         {
             "description": "Certificado do Mult-Stack 2",
-            "imageURL": "https://lh3.googleusercontent.com/drive-viewer/AITFw-wPP0ro-vFHvIv8hVljGXJ_GJ3_rAIdM4Z5sRJpJreiXt54KaJj7MDrieupFz2bbMrECtFQljPgFFpKEMBaqYvYvOGLzg=w1366-h661"
+            "imageURL": "https://lh3.googleusercontent.com/drive-viewer/AITFw-wPP0ro-vFHvIv8hVljGXJ_GJ3_rAIdM4Z5sRJpJreiXt54KaJj7MDrieupFz2bbMrECtFQljPgFFpKEMBaqYvYvOGLzg=w1366-h661",
+            "link": "https://www.treinaweb.com.br/certificado/47QPOHBGDTDV"
         },
         {
             "description": "Certificado do Mult-Stack 4",
-            "imageURL": "https://lh3.googleusercontent.com/drive-viewer/AITFw-wl8rxNqQmNLdlclcqtNgXwGlA_FyweXPf8UpgoYPGJ3Q3ZdocmNlqhmjAaV7y6s-k5H2eAUCbwXrDwTr1wAxc0FvbaJQ=w1366-h661"
+            "imageURL": "https://lh3.googleusercontent.com/drive-viewer/AITFw-wl8rxNqQmNLdlclcqtNgXwGlA_FyweXPf8UpgoYPGJ3Q3ZdocmNlqhmjAaV7y6s-k5H2eAUCbwXrDwTr1wAxc0FvbaJQ=w1366-h661",
+            "link": "https://www.treinaweb.com.br/certificado/UAAR64EAG3PA"
         },
         {
             "description": "Certificado de Bootcamp de Azure",
-            "imageURL": "https://lh3.googleusercontent.com/drive-viewer/AITFw-yOcWPAGzslr5jWXd6IjMgZzYZ2yfmPc9LQEDMYFDB9BoYuyTK3xiP6Ql_CsQYiovn6Lh_tHZWtCRpoViX5pSF83eX_=w1366-h661"
+            "imageURL": "https://lh3.googleusercontent.com/drive-viewer/AITFw-yOcWPAGzslr5jWXd6IjMgZzYZ2yfmPc9LQEDMYFDB9BoYuyTK3xiP6Ql_CsQYiovn6Lh_tHZWtCRpoViX5pSF83eX_=w1366-h661",
+            "link": "https://drive.google.com/file/d/1-niSnPsDTJVIe7yaznmf66E9gPC87qn1/view"
         },
         {
             "description": "Certificado de Angular",
-            "imageURL": "https://hermes.digitalinnovation.one/certificates/cover/E9CBE57B.jpg"
+            "imageURL": "https://hermes.digitalinnovation.one/certificates/cover/E9CBE57B.jpg",
+            "link": "https://www.dio.me/certificate/E9CBE57B"
         }
     ]
 }

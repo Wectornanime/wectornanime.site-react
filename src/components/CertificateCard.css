@@ -1,4 +1,4 @@
-.certificate-card > * {
+.certificate-card * {
     transition: 0.3s ease-in-out;
     border-radius: 10px;
 }
@@ -9,7 +9,7 @@
     position: relative;
     overflow: hidden;
     border-radius: 10px;
-    cursor: default;
+    cursor: pointer;
 }
 
 .certificate-card .image-wrapper {
@@ -18,7 +18,7 @@
     position: absolute;
 }
 
-.certificate-card > .image-wrapper > img {
+.certificate-card .image-wrapper img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -46,10 +46,10 @@
     -webkit-box-orient: vertical;
 }
 
-.certificate-card:hover > .image-wrapper {
+.certificate-card:hover .image-wrapper {
     scale: 1.1;
 }
 
-.certificate-card:hover > .certificate-card_content {
+.certificate-card:hover .certificate-card_content {
     bottom: 0;
 }
