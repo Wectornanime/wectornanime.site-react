@@ -70,6 +70,7 @@ function App() {
               <CertificateCard
               description={item.description}
               imageURL={item.imageURL}
+              link={item.link}
               />
             )
           })
