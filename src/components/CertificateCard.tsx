@@ -19,7 +19,7 @@ export default function CertificateCard(props:CertificateCardProps) {
             <a href={props.link} target="_blank" rel="noreferrer">
                 <div className="image-wrapper">
                     {
-                        error ? (<img src="../assets/images/no-image.png" alt="Imagem do Certificado" />) : (<img src={props.imageURL} alt="Imagem do Certificado" onError={handleImageError} />)
+                        error ? (<img src="../images/no-image.png" alt="Imagem do Certificado" />) : (<img src={props.imageURL} alt="Imagem do Certificado" onError={handleImageError} />)
                     }
                 </div>
                 <div className="certificate-card_content">

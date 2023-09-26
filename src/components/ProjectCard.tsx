@@ -25,7 +25,7 @@ export default function ProjectCard(props:ProjectCardProps) {
             <div className="project-card_image">
                 <div className="image-wrapper">
                     {
-                        error ? (<img src="../assets/images/no-image.png" alt="Imagem do projeto" />) : (<img src={props.imageURL} alt="Imagem do projeto" onError={handleImageError} />)
+                        error ? (<img src="../images/no-image.png" alt="Imagem do projeto" />) : (<img src={props.imageURL} alt="Imagem do projeto" onError={handleImageError} />)
                     }
                 </div>
             </div>
