@@ -5,7 +5,7 @@ import Container from './components/Container'
 import ProjectCard from './components/ProjectCard'
 import CertificateCard from './components/CertificateCard'
 import TecBadge from './components/TecBadge'
-
+import CertificatePopup from './components/CertificatePopup'
 
 function App() {
 
@@ -78,6 +78,7 @@ function App() {
 
       </Container>
 
+      <CertificatePopup></CertificatePopup>
 
 
     </main>
