@@ -4,8 +4,13 @@
 }
 
 .certificate-card {
-    width: 250px;
-    height: 180px;
+    /* width: 250px;
+    height: 180px; */
+    width: 78vw;
+    height: calc((78vw * 9) / 12.5);
+    max-height: calc((750px * 9) / 12.5);
+    max-width: 750px;
+    
     position: relative;
     overflow: hidden;
     border-radius: 10px;

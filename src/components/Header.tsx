@@ -18,7 +18,7 @@ export default function Header(props:HeaderProps) {
         <header>
             <div className="image-wrapper">
                 {
-                    error ? (<img src="../assets/images/no-image.png" alt="Foto do usuário" />) : (<img src={props.imageURL} alt="Foto do usuário" onError={handleImageError} />)
+                    error ? (<img src="../images/no-image.png" alt="Foto do usuário" />) : (<img src={props.imageURL} alt="Foto do usuário" onError={handleImageError} />)
                 }
             </div>
             <h1>{props.name}</h1>
