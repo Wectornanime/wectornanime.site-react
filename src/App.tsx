@@ -78,8 +78,7 @@ function App() {
 
       </Container>
 
-      <CertificatePopup></CertificatePopup>
-
+      <CertificatePopup />
 
     </main>
   )
