@@ -6,7 +6,6 @@ import ProjectCard from './components/ProjectCard'
 import CertificateCard from './components/CertificateCard'
 import TecBadge from './components/TecBadge'
 
-
 function App() {
 
   return (
@@ -77,9 +76,7 @@ function App() {
         }
 
       </Container>
-
-
-
+      
     </main>
   )
 }
