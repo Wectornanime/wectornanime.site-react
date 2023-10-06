@@ -96,6 +96,11 @@
     ],
     "certificates": [
         {
+            "description": "Fundamentos de Computação em Nuvem na AWS",
+            "imageURL": "https://hermes.digitalinnovation.one/certificates/cover/141C1C05.jpg",
+            "link": "https://www.dio.me/certificate/141C1C05"
+        },
+        {
             "description": "Certificado de Angular",
             "imageURL": "https://hermes.digitalinnovation.one/certificates/cover/E9CBE57B.jpg",
             "link": "https://www.dio.me/certificate/E9CBE57B"
