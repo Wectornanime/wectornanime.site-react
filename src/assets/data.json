@@ -92,6 +92,21 @@
                     "url":"https://github.com/Wectornanime/cadastroIdoso"
                 }
             ]
+        },
+        {
+            "title": "CadLivros",
+            "description": "O projeto é um crud proposto pela cadeira de Cooding durante a faculdade, aqui é simulado um painel de controle de uma biblioteca, que contem um sistema de login.",
+            "imageURL": "",
+            "links": [
+                {
+                    "label": "Github",
+                    "url":"https://github.com/Wectornanime/facul_crud"
+                },
+                {
+                    "label": "Site",
+                    "url":"https://wectornanime.github.io/facul_crud"
+                }
+            ]
         }
     ],
     "certificates": [
