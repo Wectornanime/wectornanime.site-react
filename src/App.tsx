@@ -19,7 +19,7 @@ function App() {
 
       <Container
         title="Habilidades"
-        description="Tecnologias que tenho alguma habilidade."
+        description="Tecnologias que tenho habilidade."
         containerClass="hability"
       >
 
