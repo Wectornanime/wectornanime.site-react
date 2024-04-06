@@ -59,7 +59,7 @@
         {
             "title": "Blog em Angular",
             "description": "Desafio de projeto proposto pela DIO (Digital Innovation One) no bootcamp 'Potencial Tech Angular Developer - powered by iFood'.",
-            "imageURL": "https://drive.google.com/uc?export=view&id=10MVAHMlW8FX2gQnOzD3jGyYbwKt12RIv",
+            "imageURL": "https://raw.githubusercontent.com/Wectornanime/portfolio-database/main/projects/blog.png",
             "links": [
                 {
                     "label": "Github",
@@ -74,7 +74,7 @@
         {
             "title": "BuzzFeed-Clone",
             "description": "Desafio de projeto proposto pela DIO (Digital Innovation One) no bootcamp 'Potencial Tech Angular Developer - powered by iFood'. No projeto foi posposto, desenvolver um clone do BuzzFeed utilizando Angular. Nele foi montado um pequeno teste simples, com o intuito de revelar se você é um 'vilão', ou um 'herói'.",
-            "imageURL": "https://drive.google.com/uc?export=view&id=10Jnn0YMoXFmbl_TFUG6L9E5Qs14cY8ar",
+            "imageURL": "https://raw.githubusercontent.com/Wectornanime/portfolio-database/main/projects/buzzfeed.png",
             "links": [
                 {
                     "label": "Github",
@@ -89,7 +89,7 @@
         {
             "title": "CadastroIdoso",
             "description": "O projeto é uma aplicação web completa com front, back e banco de dados, para cadastro de idosos e remédios que podem ser associados ao idoso.",
-            "imageURL": "https://drive.google.com/uc?export=view&id=10IBufPUEKYjr0g4XZiRfFM-f5r0RZAHY",
+            "imageURL": "https://raw.githubusercontent.com/Wectornanime/portfolio-database/main/projects/cadastro-idoso.png",
             "links": [
                 {
                     "label": "Github",
@@ -115,6 +115,16 @@
     ],
     "certificates": [
         {
+            "description": "Certificado de Angular",
+            "imageURL": "https://hermes.dio.me/certificates/cover/EE3B8478.jpg",
+            "link": "https://www.dio.me/certificate/EE3B8478"
+        },
+        {
+            "description": "Hackathon NASA Space Apps - 2023",
+            "imageURL": "https://raw.githubusercontent.com/Wectornanime/portfolio-database/main/certificates/nasa-azul.jpg",
+            "link": "https://drive.google.com/file/d/1a93MUeYNb0YnJSJs47hmB00hBW-kz2rH/view"
+        },
+        {
             "description": "Fundamentos de Computação em Nuvem na AWS",
             "imageURL": "https://hermes.digitalinnovation.one/certificates/cover/141C1C05.jpg",
             "link": "https://www.dio.me/certificate/141C1C05"
@@ -126,12 +136,12 @@
         },
         {
             "description": "Certificado de Bootcamp de Azure",
-            "imageURL": "https://drive.google.com/uc?export=view&id=1ebuBCMB9qKfSOk5G0GbJ-9eBxeC9ndbD",
+            "imageURL": "https://raw.githubusercontent.com/Wectornanime/portfolio-database/main/certificates/azure.png",
             "link": "https://drive.google.com/file/d/1-niSnPsDTJVIe7yaznmf66E9gPC87qn1/view"
         },
         {
             "description": "Certificado do Mult-Stack 4",
-            "imageURL": "https://drive.google.com/uc?export=view&id=1dDcvy6I-aeDkksWTPJLFe8ft-7pAP2H9",
+            "imageURL": "https://raw.githubusercontent.com/Wectornanime/portfolio-database/main/certificates/multstack-4.png",
             "link": "https://drive.google.com/file/d/1-uD5nsWPtIBNzayFi9w3TxtlYazgzWCW/view"
         },
         {
@@ -141,22 +151,22 @@
         },
         {
             "description": "Certificado de Bootcamp de Cloud",
-            "imageURL": "https://drive.google.com/uc?export=view&id=1arNa4GRUjMQfXY3REXxY5CuFQxoQGOBE",
+            "imageURL": "https://raw.githubusercontent.com/Wectornanime/portfolio-database/main/certificates/bootcamp-de-cloud.png",
             "link": "https://drive.google.com/file/d/1-oZLO3TAtgwl9KyNo0QDQMeWYY8XGmIz/view"
         },
         {
             "description": "Certificado do Mult-Stack 2",
-            "imageURL": "https://drive.google.com/uc?export=view&id=17MQxgSiflDWD8ObTjerlrX430-O1qJdt",
+            "imageURL": "https://raw.githubusercontent.com/Wectornanime/portfolio-database/main/certificates/multstack-2.png",
             "link": "https://drive.google.com/file/d/1-vTRSMPCBUDx804tf1MBf7C3qoUC9E0i/view"
         },
         {
             "description": "Diploma de Redes de Computadores",
-            "imageURL": "https://drive.google.com/uc?export=view&id=1conW7ofxmfk6gyWN7Tph_knFRCnlAEv2",
+            "imageURL": "https://raw.githubusercontent.com/Wectornanime/portfolio-database/main/certificates/rdc.jpg",
             "link": "https://drive.google.com/file/d/10YdOIuNOZp41wwruEdJVWVtVgpNH5d3b/view?usp=sharing"
         },
         {
             "description": "Informática mais redes sociais",
-            "imageURL": "https://drive.google.com/uc?export=view&id=1cmVcBrQZCpadvJfKdGuK_tFBXLEzGTj1",
+            "imageURL": "https://raw.githubusercontent.com/Wectornanime/portfolio-database/main/certificates/formacao.jpg",
             "link": "https://drive.google.com/file/d/10ZkbOcd88eu_VH7oOV6q6_nU7ef7MGlN/view"
         }
     ]
