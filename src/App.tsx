@@ -57,7 +57,7 @@ function App() {
       >
 
         {
-          data.projects.map(item => {
+          data && data.projects.map(item => {
             return (
               <ProjectCard
                 title={item.title}
@@ -78,7 +78,7 @@ function App() {
       >
 
         {
-          data.certificates.map(item => {
+          data && data.certificates.map(item => {
             return (
               <CertificateCard
                 description={item.description}
