@@ -5,31 +5,31 @@ import ProjectCard from './components/ProjectCard'
 import CertificateCard from './components/CertificateCard'
 import TecBadge from './components/TecBadge'
 import { useEffect, useState } from 'react'
-import axios from 'axios'
+import { getData } from '@/services/api'
+import Data from './types/Data'
 
-import Data from '@/types/Data'
 
 function App() {
   const [data, setData] = useState<Data | null>(null)
 
   useEffect(() => {
-    const getData = async () => {
-      const resp = await axios.get(import.meta.env.VITE_API_URL)
-      console.log(resp.data);
-      setData(resp.data)
-      
-    }
-
-    getData();
+    (async () => {
+      getData()
+        .then(data => setData(data))
+    })()
   })
   return (
     <main>
 
-      <Container
-        title="Sobre mim"
-        description=''
-        containerClass="about-me"
-      />
+      {
+        data && (
+          <Container
+            title="Sobre mim"
+            description={data.aboutMe}
+            containerClass="about-me"
+          />
+        )
+      }
 
       <Container
         title="Habilidades"
