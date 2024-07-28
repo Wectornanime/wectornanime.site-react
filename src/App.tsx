@@ -1,21 +1,25 @@
 import './App.css'
-import data from './assets/data.json'
 
 import Container from './components/Container'
 import ProjectCard from './components/ProjectCard'
 import CertificateCard from './components/CertificateCard'
 import TecBadge from './components/TecBadge'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import axios from 'axios'
 
-function App() {
+import Data from '@/types/Data'
 
-  const getData = async () => {
-    const {data } = await axios.get(import.meta.env.VITE_API_URL)
-    console.log(data)
-  }
+function App() {
+  const [data, setData] = useState<Data | null>(null)
 
   useEffect(() => {
+    const getData = async () => {
+      const resp = await axios.get(import.meta.env.VITE_API_URL)
+      console.log(resp.data);
+      setData(resp.data)
+      
+    }
+
     getData();
   })
   return (
@@ -34,7 +38,7 @@ function App() {
       >
 
         {
-          data.hability.map(item => {
+          data && data.hability.map(item => {
             return (
               <TecBadge
                 name={item.name}
