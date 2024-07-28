@@ -5,16 +5,26 @@ import Container from './components/Container'
 import ProjectCard from './components/ProjectCard'
 import CertificateCard from './components/CertificateCard'
 import TecBadge from './components/TecBadge'
+import { useEffect } from 'react'
+import axios from 'axios'
 
 function App() {
 
+  const getData = async () => {
+    const {data } = await axios.get(import.meta.env.VITE_API_URL)
+    console.log(data)
+  }
+
+  useEffect(() => {
+    getData();
+  })
   return (
     <main>
 
       <Container
-      title="Sobre mim"
-      description={data.aboutMe}
-      containerClass="about-me"
+        title="Sobre mim"
+        description=''
+        containerClass="about-me"
       />
 
       <Container
@@ -27,8 +37,8 @@ function App() {
           data.hability.map(item => {
             return (
               <TecBadge
-              name={item.name}
-              deviconClass={item.deviconClass}
+                name={item.name}
+                deviconClass={item.deviconClass}
               />
             )
           })
@@ -41,15 +51,15 @@ function App() {
         description="Projetos que desenvolvi ao longo do tempo."
         containerClass="projects"
       >
-        
+
         {
           data.projects.map(item => {
             return (
               <ProjectCard
-              title={item.title}
-              description={item.description}
-              imageURL={item.imageURL}
-              links={item.links}
+                title={item.title}
+                description={item.description}
+                imageURL={item.imageURL}
+                links={item.links}
               />
             )
           })
@@ -62,21 +72,21 @@ function App() {
         title="Certificados"
         description="Certificados que conquistei durante o caminho."
       >
-        
+
         {
           data.certificates.map(item => {
             return (
               <CertificateCard
-              description={item.description}
-              imageURL={item.imageURL}
-              link={item.link}
+                description={item.description}
+                imageURL={item.imageURL}
+                link={item.link}
               />
             )
           })
         }
 
       </Container>
-      
+
     </main>
   )
 }
