@@ -43,8 +43,7 @@ function App() {
           }
 
         </Header>
-      )
-      }
+      )}
 
       <main>
 
